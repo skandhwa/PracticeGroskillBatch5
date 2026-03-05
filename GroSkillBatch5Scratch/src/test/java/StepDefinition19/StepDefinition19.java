@@ -171,7 +171,7 @@ public class StepDefinition19 extends BaseClass {
 	@Then("a new customer will be created")
 	public void a_new_customer_will_be_created() {
 	   
-		
+		System.out.println("new customer created");
 		
 	}
 
