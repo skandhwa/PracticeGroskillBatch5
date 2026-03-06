@@ -120,6 +120,8 @@ public class StepDefinition19 extends BaseClass {
 	public void user_enters_city_as(String city) {
 	   
 		obj1.enterCity(city);
+		int y=9/0;
+		System.out.println(y);
 		
 		
 	}
