@@ -27,6 +27,7 @@ public class LoginTest extends BaseClass {
 		driver.findElement(LoginPage.password()).sendKeys(FetchDataFromExcel.getCredentials(1, 1));
 		driver.findElement(LoginPage.submitBtn()).click();
 		Thread.sleep(3000);
+		Reporter.log("Login Test Case Successfull");
 		
 		
 	}
